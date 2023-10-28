@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/api_spring
+    username: root
+    password:  Ferrinico92
+  jpa:
+    database: mysql
+    show_sql: true
+    hibernate:
+      ddl-auto: create
